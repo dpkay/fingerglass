@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/shader">
+    <file alias="mglass.vert">resources/shader/mglass.vert</file>
+    <file alias="mglass.frag">resources/shader/mglass.frag</file>
+    <file alias="circle.vert">resources/shader/circle.vert</file>
+    <file alias="circle.frag">resources/shader/circle.frag</file>
+  </qresource>
+</RCC>
