@@ -1,0 +1,40 @@
+<!DOCTYPE fatfinger>
+<study>
+	<task type="interaction">
+		<property name="num_distances" type="int" value="8"/>
+		<property name="num_blocks" type="int" value="12"/>
+		<property name="min_exponent" type="int" value="0"/>
+		<property name="highlight_targets" type="bool" value="false"/>
+		<property name="selection_mode" type="string" value="directarea"/>
+		<!--property name="selection_mode" type="string" value="indirect"/-->
+		<!--property name="selection_mode" type="string" value="bubble"/-->
+		<tools>
+ 			<tool type="fingerglass">
+				<property name="aspect_ratio" type="real" value="1.5"/>
+				<property name="initial_delay" type="int" value="50"/>
+				<property name="show_glass" type="bool" value="true"/>
+				<property name="lazy" type="bool" value="false"/>
+				<property name="initial_ratio" type="real" value="6.0"/>
+				<property name="angle" type="real" value="0"/>
+			</tool>
+			<!--tool type="directtouch"/-->
+  			<tool type="touchdisplay">
+				<property name="simplified_mg" type="bool" value="false"/>
+				<property name="release_delay" type="int" value="400"/>
+				<property name="pointy_cursor" type="bool" value="false"/>
+			</tool>			
+		</tools>
+		<scene>
+			<property name="ball_margin" type="real" value="0.025"/>
+			<property name="background" type="string" value="map"/>
+			<property name="mask" type="string" value="map_mask"/>
+			<property name="highlight_targets" type="bool" value="false"/>
+			<property name="num_points" type="int" value="200"/>
+			<property name="point_radius" type="real" value="0.0023"/>
+			<property name="target_radius" type="real" value="0.0023"/>
+			<property name="min_target_distance" type="real" value="0.9"/>
+			<property name="max_target_distance" type="real" value="0.9"/>
+			<property name="aspect_ratio" type="real" value="1.5"/>
+		</scene>
+	</task>
+</study>
