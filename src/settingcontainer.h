@@ -2,6 +2,8 @@
 #define settingnode_h__
 
 #include <QMap>
+#include <QString>
+#include <QDataStream>
 
 class SettingContainer
 {

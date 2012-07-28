@@ -1,6 +1,8 @@
 #ifndef task_h__
 #define task_h__
 
+class Task;
+
 #include "taskstatistics.h"
 #include "scenetouchpoint.h"
 #include "touchwidgetmanager.h"

@@ -3,6 +3,9 @@
 #include "touchdisplaywidgetrenderer.h"
 #include "variousattachments.h"
 
+#include <QCryptographicHash>
+#include <QDir>
+
 // --------------------------------------------------------
 QDebug operator<<(QDebug dbg, const Scene &s)
 {
@@ -50,8 +53,9 @@ void Scene::createBalls()
 	QByteArray ba;
 	QDataStream ds(&ba, QIODevice::WriteOnly);
 	_setting_container->serialize(&ds);
-	QByteArray hash = QCryptographicHash::hash(ba, QCryptographicHash::Md5);
-	QString file_name = QString("studies/scenecache/%1.scenecache").arg(QString(hash.toHex()));
+    QByteArray hash = QCryptographicHash::hash(ba, QCryptographicHash::Md5);
+    QDir("cache").mkpath(".");
+	QString file_name = QString("cache/%1.scenecache").arg(QString(hash.toHex()));
 	QFile file(file_name);
 
 	if(file.exists())

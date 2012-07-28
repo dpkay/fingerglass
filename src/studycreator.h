@@ -6,6 +6,8 @@
 #include "tool.h"
 #include "settingcontainer.h"
 
+#include <QDomElement>
+
 class StudyCreator
 {
 public:

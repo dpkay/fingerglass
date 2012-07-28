@@ -2,6 +2,7 @@
 #define sidepaneevent_h__
 
 #include "taskstatistics.h"
+#include <QTime>
 
 class SidePaneEvent
 {

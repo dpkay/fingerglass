@@ -4,6 +4,7 @@
 class TouchWidgetRenderer;
 
 #include "glresourcecontainer.h"
+#include <QtCore>
 
 class WidgetAttachment : public QObject
 {
@@ -25,7 +26,7 @@ public:
 		Q_ASSERT(_age == NULL);
 		Q_ASSERT(_timer == NULL);
 		_lifetime = lifetime;
-		_timer = new QTimer(this);
+        _timer = new QTimer(this);
 		_age = new QTime;
 		_timer->setSingleShot(true);
 		_timer->start(_lifetime);

@@ -1,13 +1,14 @@
 #ifndef tool_h__
 #define tool_h__
 
+class Tool;
+
 #include "scenetouchpoint.h"
 #include "rigidwidgetcontroller.h"
 #include "settingcontainer.h"
 
 class TouchWidgetManager;
 class TouchPointManager;
-
 
 class Tool : public QObject
 {

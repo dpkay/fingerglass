@@ -1,0 +1,35 @@
+<RCC>
+  <qresource prefix="/textures">
+    <file alias="button_normal.png">textures/citrus_grove/button_normal.png</file>
+    <file alias="button_active.png">textures/citrus_grove/button_active.png</file>
+    <file alias="button_highlighted.png">textures/citrus_grove/button_highlighted.png</file>
+    <file alias="mglass.png">textures/mglass.png</file>
+    <file alias="mglass_hidden_arrow.png">textures/mglass_hidden_arrow.png</file>
+    <file alias="mglass_hidden_arrow_head.png">textures/mglass_hidden_arrow_head.png</file>
+    <file alias="mglass_resizer.png">textures/mglass_resizer.png</file>
+    <file alias="mglass_resizer_active.png">textures/mglass_resizer_active.png</file>
+    <file alias="map.png">textures/map_1024.png</file>
+    <file alias="map_mask.png">textures/map_mask_1024.png</file>
+    <file alias="bg.png">textures/citrus_grove/bg.png</file>
+    <!--file alias="map.png"textures/map_4096.png-->
+    <file alias="touch_bright/touch_free.png">textures/touch_bright/touch_free.png</file>
+    <file alias="touch_bright/touch_free_young.png">textures/touch_bright/touch_free_young.png</file>
+    <file alias="touch_bright/touch_bound.png">textures/touch_bright/touch_bound.png</file>
+    <file alias="touch_bright/touch_bound_young.png">textures/touch_bright/touch_bound_young.png</file>
+    <file alias="touch_bright/touch_new.png">textures/touch_bright/touch_new.png</file>
+    <file alias="touch_dark/touch_free.png">textures/touch_dark/touch_free.png</file>
+    <file alias="touch_dark/touch_free_young.png">textures/touch_dark/touch_free_young.png</file>
+    <file alias="touch_dark/touch_bound.png">textures/touch_dark/touch_bound.png</file>
+    <file alias="touch_dark/touch_bound_young.png">textures/touch_dark/touch_bound_young.png</file>
+    <file alias="touch_dark/touch_new.png">textures/touch_dark/touch_new.png</file>
+    <file alias="handle.png">textures/handle.png</file>
+    <file alias="alert_ambiguous.png">textures/citrus_grove/ambiguous_alert.png</file>
+    <file alias="halo.png">textures/citrus_grove/halo.png</file>
+    <file alias="highlight.png">textures/citrus_grove/highlight.png</file>
+    <file alias="destination_highlight.png">textures/citrus_grove/destination_highlight.png</file>
+    <file alias="target.png">textures/citrus_grove/target.png</file>
+    <file alias="precision_handle.png">textures/precision_handle.png</file>
+    <file alias="precision_cross.png">textures/precision_cross.png</file>
+    <file alias="precision_handle_grip.png">textures/precision_handle_grip.png</file>
+  </qresource>
+</RCC>

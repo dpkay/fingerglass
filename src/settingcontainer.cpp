@@ -1,4 +1,5 @@
 #include "settingcontainer.h"
+#include <QtDebug>
 
 // --------------------------------------------------------
 QDebug operator<<(QDebug dbg, const SettingContainer &node)

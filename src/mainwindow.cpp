@@ -82,7 +82,7 @@ MainWindow::MainWindow()
 	_study = NULL;
 	_gl_widget = NULL;
 
-  changeStudy("[interaction] fingerglass normal");
+  changeStudy("config");
 
 }
 
@@ -217,7 +217,7 @@ void MainWindow::changeStudy( QString name )
 {
 	//qDebug() << "changing study to" << name;
 	StudyCreator study_creator;
-	Study * study = study_creator.createFromXML(QString("studies/%1.xml").arg(name));
+	Study * study = study_creator.createFromXML(QString("%1.xml").arg(name));
 
 	if(_gl_widget == NULL)
 	{

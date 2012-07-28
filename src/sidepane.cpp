@@ -1,6 +1,7 @@
 #include "sidepane.h"
 #include "sidepaneevent.h"
 #include "globallog.h"
+#include <QtGui>
 
 // --------------------------------------------------------
 void SidePane::sidePaneEvent( SidePaneEvent * event )

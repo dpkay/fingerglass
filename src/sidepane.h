@@ -1,7 +1,10 @@
 #ifndef sidepane_h__
 #define sidepane_h__
 
-#include <QWidget>
+#include <QListWidget>
+#include <QLabel>
+#include <QFile>
+#include <QComboBox>
 #include "sidepaneevent.h"
 
 class SidePane : public QWidget
